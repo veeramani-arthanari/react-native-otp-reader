@@ -7,7 +7,11 @@
 
 Install using `npm`
 
-`npm install react-native-otp-reader`
+```
+npm install react-native-otp-reader
+
+react-native link react-native-otp-reader
+```
 
 ## Usage
 

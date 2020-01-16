@@ -1,7 +1,7 @@
 {
   "name": "react-native-otp-reader",
-  "version": "1.0.0",
-  "description": "Read message from your phone",
+  "version": "1.0.2",
+  "description": "Reads message from your phone",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
