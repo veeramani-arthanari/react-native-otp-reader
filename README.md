@@ -25,6 +25,16 @@ RNOtpReader.GenerateHashString((hash) => {
 });
 ```
 
+```diff
+- Please note that different hash string will be returned in the following
+- 1. If you're running and installing the app from your Mac/Windows.
+- 2. If you're generating the debug APK and installing through external resources like Diawi, HockeyApp, etc.
+- 3. If you're generating the release APK and uploading the `Play Store`
+
++ You've to give the Hash which has been generated in the Play Store to your Backend team or whoever is going to send the SMS.
++ I usually get the Hash from Playstore Alpha/Beta release by setting the hash value to the Label/Text.
+```
+
 ### Step 3: Start Observing the SMS
 You've to start the observer which is going to wait for the SMS with the `hash ` string of your application.
 
